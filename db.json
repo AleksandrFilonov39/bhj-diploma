@@ -1,0 +1,736 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "Vlad",
+      "email": "test@test.ru",
+      "password": "abracadabra",
+      "id": "5q55bth2wmaxvb3oo"
+    },
+    {
+      "name": "Vlad",
+      "email": "st@test.ru",
+      "password": "abracadabra",
+      "id": "5q55btdxgmaxve1k1"
+    },
+    {
+      "name": "Vlad",
+      "email": "sta@test.ru",
+      "password": "abracadabra",
+      "id": "5q55bt8bsmaxxntd1"
+    },
+    {
+      "name": "фыыф",
+      "email": "dsvdsvds@hgg.ru",
+      "password": "фыфы",
+      "id": "5q55bt6zsmay3du05"
+    },
+    {
+      "name": "11",
+      "email": "dsac@dd.com",
+      "password": "11",
+      "id": "5q55bteewmay42013"
+    },
+    {
+      "name": "ww",
+      "email": "ww@ww",
+      "password": "ww",
+      "id": "5q55btaaomay42xwh"
+    },
+    {
+      "name": "www",
+      "email": "www@www",
+      "password": "www",
+      "id": "5q55btiqomay4440a"
+    },
+    {
+      "name": "qq",
+      "email": "qq@qq",
+      "password": "qq",
+      "id": "5q55bti5cmay48ypj"
+    },
+    {
+      "name": "ee",
+      "email": "ee@ee",
+      "password": "ee",
+      "id": "5q55bt4ugmayfx2yb"
+    },
+    {
+      "name": "rr",
+      "email": "rr@rr",
+      "password": "rr",
+      "id": "5q55bt8c0mayfy9ab"
+    },
+    {
+      "name": "qaz",
+      "email": "qaz@qaz",
+      "password": "qaz",
+      "id": "5q55btkegmb4tejmd"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "qq",
+      "user_id": "5q55bti5cmay48ypj",
+      "id": "5q55btg6cmb0xlap3"
+    },
+    {
+      "name": "dded",
+      "user_id": "5q55bti5cmay48ypj",
+      "id": "5q55bthqkmb0y36l6"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "5q55btda4mazhrh3v",
+      "type": "income",
+      "name": "asa",
+      "sum": 111,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T14:53:04.986Z"
+    },
+    {
+      "id": "5q55btiv4mazhsnr3",
+      "type": "income",
+      "name": "wwq",
+      "sum": 112,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T14:54:00.254Z"
+    },
+    {
+      "id": "5q55btg70mazhsp0a",
+      "type": "income",
+      "name": "wwq",
+      "sum": 112,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T14:54:01.881Z"
+    },
+    {
+      "id": "5q55bti3omazhw5h2",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T14:56:43.189Z"
+    },
+    {
+      "id": "5q55btgwcmazt5o10",
+      "type": "income",
+      "name": "21",
+      "sum": 121,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:12:02.915Z"
+    },
+    {
+      "id": "5q55bt6swmazt66fe",
+      "type": "income",
+      "name": "3233",
+      "sum": 3223,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:12:26.761Z"
+    },
+    {
+      "id": "5q55bta9kmazt7v05",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:13:45.268Z"
+    },
+    {
+      "id": "5q55btxcmazt8c1q",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:14:07.357Z"
+    },
+    {
+      "id": "5q55bte84mazt8yok",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:14:36.691Z"
+    },
+    {
+      "id": "5q55btj04mazt9uq1",
+      "type": "income",
+      "name": "qw",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:15:18.216Z"
+    },
+    {
+      "id": "5q55bt724maztb1pu",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:16:13.937Z"
+    },
+    {
+      "id": "5q55bt71cmaztbk4t",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:16:37.804Z"
+    },
+    {
+      "id": "5q55btfvwmaztchnd",
+      "type": "income",
+      "name": "1212",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:17:21.240Z"
+    },
+    {
+      "id": "5q55btl9smaztdm3y",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:18:13.677Z"
+    },
+    {
+      "id": "5q55bthdcmaztgsw0",
+      "type": "income",
+      "name": "12",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-22T20:20:42.431Z"
+    },
+    {
+      "id": "5q55btet4mb0hy1qb",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T07:45:57.826Z"
+    },
+    {
+      "id": "5q55btk2kmb0wc9k2",
+      "type": "income",
+      "name": "qwq",
+      "sum": 12112,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T14:28:55.777Z"
+    },
+    {
+      "id": "5q55btchgmb0weue9",
+      "type": "expense",
+      "name": "sdsd",
+      "sum": 12211,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T14:30:56.096Z"
+    },
+    {
+      "id": "5q55bt93cmb0wfp7l",
+      "type": "income",
+      "name": "asasas",
+      "sum": 12123,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T14:31:36.032Z"
+    },
+    {
+      "id": "5q55bt53smb0wfwz2",
+      "type": "expense",
+      "name": "qwqw",
+      "sum": 12123334,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T14:31:46.093Z"
+    },
+    {
+      "id": "5q55bte60mb0xhxob",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 12131,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:01:19.930Z"
+    },
+    {
+      "id": "5q55bti4wmb0xid8b",
+      "type": "income",
+      "name": "qwq",
+      "sum": 12133,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:01:40.090Z"
+    },
+    {
+      "id": "5q55btkzwmb0xikzn",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:01:50.146Z"
+    },
+    {
+      "id": "5q55btkcomb0xlg3l",
+      "type": "income",
+      "name": "qq",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:04:03.776Z"
+    },
+    {
+      "id": "5q55btamsmb0xlnjx",
+      "type": "expense",
+      "name": "12",
+      "sum": 112121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:04:13.436Z"
+    },
+    {
+      "id": "5q55btlbomb0xxe29",
+      "type": "income",
+      "name": "йццййц",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:13:21.008Z"
+    },
+    {
+      "id": "5q55bt79gmb0xxrv1",
+      "type": "income",
+      "name": "йцукк",
+      "sum": 132323,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:13:38.892Z"
+    },
+    {
+      "id": "5q55btjl8mb0y1if5",
+      "type": "income",
+      "name": "йцйцйуц",
+      "sum": 12121,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:16:33.280Z"
+    },
+    {
+      "id": "5q55bthm8mb0y1pbh",
+      "type": "income",
+      "name": "цвыымвы",
+      "sum": 1223234,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:16:42.220Z"
+    },
+    {
+      "id": "5q55btgksmb0y2ugb",
+      "type": "income",
+      "name": "1121",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:17:35.530Z"
+    },
+    {
+      "id": "5q55btblsmb0y3c9t",
+      "type": "income",
+      "name": "qwqwqw",
+      "sum": 12112,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:17:58.624Z"
+    },
+    {
+      "id": "5q55btekgmb0y3t6e",
+      "type": "income",
+      "name": "dsdds",
+      "sum": 211212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:18:20.533Z"
+    },
+    {
+      "id": "5q55btaesmb0y3zxu",
+      "type": "income",
+      "name": "1212",
+      "sum": 1121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:18:29.297Z"
+    },
+    {
+      "id": "5q55btjukmb0y4eyu",
+      "type": "income",
+      "name": "2112",
+      "sum": 11212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:18:48.773Z"
+    },
+    {
+      "id": "5q55bt3ogmb0y4ouy",
+      "type": "income",
+      "name": "1212",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:19:01.593Z"
+    },
+    {
+      "id": "5q55btiv4mb0ybkb7",
+      "type": "income",
+      "name": "йцйц",
+      "sum": 2112,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:24:22.290Z"
+    },
+    {
+      "id": "5q55bt61gmb0yey3m",
+      "type": "income",
+      "name": "asad",
+      "sum": 122131,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:27:00.129Z"
+    },
+    {
+      "id": "5q55btg3cmb0yfqt1",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 11212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:27:37.332Z"
+    },
+    {
+      "id": "5q55btiw0mb0ygcy3",
+      "type": "income",
+      "name": "qwqqw",
+      "sum": 121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:28:06.026Z"
+    },
+    {
+      "id": "5q55btew0mb0yix5c",
+      "type": "expense",
+      "name": "qwqwq",
+      "sum": 12121,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:30:05.519Z"
+    },
+    {
+      "id": "5q55btakcmb0yj9m2",
+      "type": "expense",
+      "name": "1212",
+      "sum": 1212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:30:21.673Z"
+    },
+    {
+      "id": "5q55btgrwmb0yl4lq",
+      "type": "income",
+      "name": "qwwq",
+      "sum": 211212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:31:48.493Z"
+    },
+    {
+      "id": "5q55bt7d0mb0yla7d",
+      "type": "income",
+      "name": "1212",
+      "sum": 121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:31:55.752Z"
+    },
+    {
+      "id": "5q55btibwmb0yliah",
+      "type": "income",
+      "name": "wqqwqw",
+      "sum": 121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:32:06.232Z"
+    },
+    {
+      "id": "5q55bt1xcmb0ylrxp",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 121212,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:32:18.732Z"
+    },
+    {
+      "id": "5q55btkskmb0ynixe",
+      "type": "income",
+      "name": "saas",
+      "sum": 12,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:33:40.369Z"
+    },
+    {
+      "id": "5q55btb8kmb0yoqbj",
+      "type": "expense",
+      "name": "1212",
+      "sum": 11,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:34:36.606Z"
+    },
+    {
+      "id": "5q55btgssmb0yp1nw",
+      "type": "income",
+      "name": "fddffd",
+      "sum": 12213,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:34:51.307Z"
+    },
+    {
+      "id": "5q55bt2d0mb0yt35w",
+      "type": "income",
+      "name": "dssdsd",
+      "sum": 121223,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:37:59.875Z"
+    },
+    {
+      "id": "5q55btdp0mb0yvfso",
+      "type": "income",
+      "name": "qwqwqw",
+      "sum": 121231,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:39:49.559Z"
+    },
+    {
+      "id": "5q55bth40mb0yvwy3",
+      "type": "income",
+      "name": "asas",
+      "sum": 2112113,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-23T15:40:11.786Z"
+    },
+    {
+      "id": "5q55btej8mb4rfti9",
+      "type": "income",
+      "name": "sdfsd",
+      "sum": 211213,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T07:22:48.224Z"
+    },
+    {
+      "id": "5q55bt94kmb4rg04y",
+      "type": "expense",
+      "name": "qqwwq12",
+      "sum": 12,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T07:22:56.817Z"
+    },
+    {
+      "id": "5q55btmpcmb4rkfd8",
+      "type": "income",
+      "name": "saadasввввв",
+      "sum": 121,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T07:26:23.179Z"
+    },
+    {
+      "id": "5q55bt9ikmb4rkqql",
+      "type": "income",
+      "name": "нет",
+      "sum": 123,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T07:26:37.917Z"
+    },
+    {
+      "id": "5q55btgy4mb4tynx9",
+      "type": "income",
+      "name": "dasds",
+      "sum": 121,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:33:26.684Z"
+    },
+    {
+      "id": "5q55bt7mgmb4tzh0x",
+      "type": "income",
+      "name": "ass",
+      "sum": 23424,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:34:04.400Z"
+    },
+    {
+      "id": "5q55bte5kmb4u4bpm",
+      "type": "income",
+      "name": "sada",
+      "sum": 1121,
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:37:50.793Z"
+    },
+    {
+      "id": "5q55btdtkmb4u4mt7",
+      "type": "income",
+      "name": "qwqw",
+      "sum": 1212,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:38:05.178Z"
+    },
+    {
+      "id": "5q55bt87gmb4u5j4i",
+      "type": "income",
+      "name": "asas",
+      "sum": 1212,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:38:47.057Z"
+    },
+    {
+      "id": "5q55bt7ekmb4u64bq",
+      "type": "income",
+      "name": "assd",
+      "sum": 2112,
+      "account_id": "5q55btg6cmb0xlap3",
+      "user_id": "5q55bti5cmay48ypj",
+      "created_at": "2025-05-26T08:39:14.533Z"
+    }
+  ]
+}
