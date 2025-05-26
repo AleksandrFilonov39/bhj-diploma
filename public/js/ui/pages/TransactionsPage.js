@@ -40,7 +40,7 @@ class TransactionsPage {
       this.removeAccount();
     })
 
-      this.element.addEventListener('click', () => {
+      this.element.addEventListener('click', (e) => {
       const btnTransactionRemove = e.target.closest('.transaction__remove');
       if(btnTransactionRemove){
         this.removeTransaction(btnTransactionRemove.dataset.id);
