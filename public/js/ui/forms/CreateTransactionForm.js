@@ -22,12 +22,11 @@ class CreateTransactionForm extends AsyncForm {
     Account.list(User.current(), (err, response) => {
       const select = this.element.querySelector('.form-control.accounts-select');
       if(response.success) {
-        select.innerHTML = ''
-        response.data.forEach((el) => {
-        select.innerHTML +=`
-          <option value="${el.id}">${el.name}</option>
-        ` 
-        });
+        select.innerHTML = '';
+        select.innerHTML = response.data.reduce((acc, el) => {
+          acc += `<option value="${el.id}">${el.name}</option>`;
+          return acc;
+        }, ``);
       }   
     })
   }

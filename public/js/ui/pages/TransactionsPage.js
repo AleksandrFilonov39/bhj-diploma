@@ -204,9 +204,10 @@ class TransactionsPage {
    const content = document.querySelector(".content");
     content.innerHTML = "";
     if (data) {
-      data.forEach((item) =>
-        content.insertAdjacentHTML("beforeend", this.getTransactionHTML(item))
-      );
+      content.insertAdjacentHTML("beforeend", data.reduce((acc, el) => {
+        acc += this.getTransactionHTML(el);
+        return acc;
+      }, ``))
     }
   }
 }

@@ -654,42 +654,6 @@
       "created_at": "2025-05-26T07:22:48.224Z"
     },
     {
-      "id": "5q55bt94kmb4rg04y",
-      "type": "expense",
-      "name": "qqwwq12",
-      "sum": 12,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T07:22:56.817Z"
-    },
-    {
-      "id": "5q55btmpcmb4rkfd8",
-      "type": "income",
-      "name": "saadasввввв",
-      "sum": 121,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T07:26:23.179Z"
-    },
-    {
-      "id": "5q55bt9ikmb4rkqql",
-      "type": "income",
-      "name": "нет",
-      "sum": 123,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T07:26:37.917Z"
-    },
-    {
-      "id": "5q55btgy4mb4tynx9",
-      "type": "income",
-      "name": "dasds",
-      "sum": 121,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T08:33:26.684Z"
-    },
-    {
       "id": "5q55bt7mgmb4tzh0x",
       "type": "income",
       "name": "ass",
@@ -704,33 +668,6 @@
       "sum": 1121,
       "user_id": "5q55bti5cmay48ypj",
       "created_at": "2025-05-26T08:37:50.793Z"
-    },
-    {
-      "id": "5q55btdtkmb4u4mt7",
-      "type": "income",
-      "name": "qwqw",
-      "sum": 1212,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T08:38:05.178Z"
-    },
-    {
-      "id": "5q55bt87gmb4u5j4i",
-      "type": "income",
-      "name": "asas",
-      "sum": 1212,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T08:38:47.057Z"
-    },
-    {
-      "id": "5q55bt7ekmb4u64bq",
-      "type": "income",
-      "name": "assd",
-      "sum": 2112,
-      "account_id": "5q55btg6cmb0xlap3",
-      "user_id": "5q55bti5cmay48ypj",
-      "created_at": "2025-05-26T08:39:14.533Z"
     }
   ]
 }

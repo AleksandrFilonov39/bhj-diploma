@@ -43,29 +43,30 @@
 const createRequest = async (options = {}) => {
 
   const{method, url, data, callback } = options;
+  let newURL = url;
+
+  let fetchOptions = {
+    method: method,
+    headers: {}
+  };
+
+  let formData = new FormData();
+
+  if (method === 'GET') {
+        newURL += '?';
+    for (const key in data) {
+        newURL += `${key}=${data[key]}&`;
+    }
+    newURL = newURL.slice(0, newURL.length - 1);
+  } else {
+      for (const key in data) {
+          formData.append(key, data[key])
+      }
+      fetchOptions.body = formData;
+  }
 
   try {
-    let fetchOptions = {
-      method: method,
-      headers: {}
-    };
-
-    let formData = new FormData();
-
-    if (method === 'GET') {
-          options.url += '?';
-      for (const key in data) {
-          options.url += `${key}=${data[key]}&`;
-      }
-      options.url = options.url.slice(0, options.url.length - 1);
-    } else {
-        for (const key in data) {
-            formData.append(key, data[key])
-        }
-        fetchOptions.body = formData;
-    }
-
-    const response = await fetch (options.url, fetchOptions);
+       const response = await fetch (newURL, fetchOptions);
     if(!response.ok) {
         throw new Error(`Could not fetch ${response.status}`);
     }
